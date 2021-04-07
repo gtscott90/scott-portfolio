@@ -1,4 +1,10 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMap } from '@fortawesome/free-solid-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+
+const location = <FontAwesomeIcon icon={faMap} />
+const phone = <FontAwesomeIcon icon={faPhone} />
 
 function Contact() {
     return (
@@ -62,11 +68,11 @@ function Contact() {
 
         <div className="col-md-3 text-center">
             <ul className="list-unstyled mb-0">
-                <li><i className="fas fa-map-marker-alt fa-2x"></i>
+                <li><i className={location}></i>
                     <p>Brooklyn, NY, USA</p>
                 </li>
 
-                <li><i className="fas fa-phone mt-4 fa-2x"></i>
+                <li><i className={phone}></i>
                     <p>(937) 974-2843</p>
                 </li>
 
