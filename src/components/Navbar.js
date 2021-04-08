@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./style.css";
 
 function Navbar() {
     return (
@@ -11,7 +12,7 @@ function Navbar() {
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link
-                to="/"
+                to="/about"
                 className={
                   window.location.pathname === "/" || window.location.pathname === "/about"
                     ? "nav-link active"
