@@ -22,7 +22,7 @@ function Contact() {
 
     <div className="row">
         <div className="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST" /*ref="form" onSubmit={this.handleSubmit}*/>
                 <div className="row">
                     <div className="col-md-6">
                         <div className="md-form mb-0">
@@ -56,14 +56,11 @@ function Contact() {
                         </div>
                     </div>
                 </div>
-                
+                <button className="btn btn-primary" type="submit">Send</button>
 
             </form>
 
-            <div className="text-center text-md-left">
-                <a className="btn btn-primary" href="#" /*onclick="document.getElementById('contact-form').submit();"*/>Send</a>
-            </div>
-            <div className="status"></div>
+            
         </div>
 
         <div className="col-md-3 text-center">
