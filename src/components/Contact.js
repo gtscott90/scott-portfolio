@@ -1,10 +1,15 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMap } from '@fortawesome/free-solid-svg-icons';
+import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
-const location = <FontAwesomeIcon icon={faMap} />
+const location = <FontAwesomeIcon icon={faMapMarkerAlt} />
 const phone = <FontAwesomeIcon icon={faPhone} />
+const envelope = <FontAwesomeIcon icon={faEnvelope} />
+
+// TODO: write handlesubmit function
+// TODO: FontAwesome
 
 function Contact() {
     return (
@@ -65,15 +70,16 @@ function Contact() {
 
         <div className="col-md-3 text-center">
             <ul className="list-unstyled mb-0">
-                <li><i className={location}></i>
+                <li> {location}
                     <p>Brooklyn, NY, USA</p>
                 </li>
 
-                <li><i className={phone}></i>
+                <li>{phone}
                     <p>(937) 974-2843</p>
                 </li>
 
-                <li><i className="fas fa-envelope mt-4 fa-2x"></i>
+                <li>
+                    {envelope}
                     <p>gtscott90@gmail.com</p>
                 </li>
             </ul>

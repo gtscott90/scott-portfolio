@@ -1,6 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAddressCard } from '@fortawesome/free-solid-svg-icons';
+import { faMobileAlt } from '@fortawesome/free-solid-svg-icons';
+import { faStream} from '@fortawesome/free-solid-svg-icons';
 import "./style.css";
+
+const addressCard = <FontAwesomeIcon icon={faAddressCard} />
+const stream = <FontAwesomeIcon icon={faStream} />
+const mobile = <FontAwesomeIcon icon={faMobileAlt} />
 
 function Navbar() {
     return (
@@ -22,7 +30,7 @@ function Navbar() {
                     ? "nav-link active"
                     : "nav-link"
                 }
-              >
+              > {addressCard}
                 About
               </Link>
             </li>
@@ -30,7 +38,7 @@ function Navbar() {
               <Link
                 to="/portfolio"
                 className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
-              >
+              >{stream}
                 Portfolio
               </Link>
             </li>
@@ -38,7 +46,7 @@ function Navbar() {
               <Link
                 to="/contact"
                 className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
-              >
+              > {mobile}
                 Contact
               </Link>
             </li>
