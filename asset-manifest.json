@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/scott-portfolio/static/css/main.dd698dc8.chunk.css",
-    "main.js": "/scott-portfolio/static/js/main.f6257286.chunk.js",
-    "main.js.map": "/scott-portfolio/static/js/main.f6257286.chunk.js.map",
+    "main.js": "/scott-portfolio/static/js/main.42ced276.chunk.js",
+    "main.js.map": "/scott-portfolio/static/js/main.42ced276.chunk.js.map",
     "runtime-main.js": "/scott-portfolio/static/js/runtime-main.a7355205.js",
     "runtime-main.js.map": "/scott-portfolio/static/js/runtime-main.a7355205.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/scott-portfolio/static/css/2.4c97ca4f.chunk.css",
@@ -14,6 +14,7 @@
     "static/js/2.44c2ba81.chunk.js.LICENSE.txt": "/scott-portfolio/static/js/2.44c2ba81.chunk.js.LICENSE.txt",
     "static/media/dayplanner.42e354c5.png": "/scott-portfolio/static/media/dayplanner.42e354c5.png",
     "static/media/destination-goals.e7eaa5c0.png": "/scott-portfolio/static/media/destination-goals.e7eaa5c0.png",
+    "static/media/devsync.e184bed0.png": "/scott-portfolio/static/media/devsync.e184bed0.png",
     "static/media/eat-da-burger.e29d8ca6.png": "/scott-portfolio/static/media/eat-da-burger.e29d8ca6.png",
     "static/media/passwordGenerator.d136cff3.png": "/scott-portfolio/static/media/passwordGenerator.d136cff3.png",
     "static/media/profile-picture.3b1391b3.png": "/scott-portfolio/static/media/profile-picture.3b1391b3.png",
@@ -24,6 +25,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.44c2ba81.chunk.js",
     "static/css/main.dd698dc8.chunk.css",
-    "static/js/main.f6257286.chunk.js"
+    "static/js/main.42ced276.chunk.js"
   ]
 }
