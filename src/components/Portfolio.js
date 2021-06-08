@@ -5,6 +5,7 @@ import PassGen from "./images/passwordGenerator.png"
 import DestinationGoals from "./images/destination-goals.png"
 import EatBurger from "./images/eat-da-burger.png"
 import DevSync from "./images/devsync.png"
+import EmployDir from "./images/employeedirectory.png"
 
 function Portfolio() {
     return (
@@ -49,6 +50,12 @@ function Portfolio() {
                     <figure className="text-center"><img src={EatBurger} alt="Eat Da Burger" style={{width: "150px"}}/> 
                         <figcaption className="text-center"><a href="https://fast-thicket-43734.herokuapp.com/">Eat Da Burger!</a></figcaption>
                         <figcaption className="text-center"><a href="https://github.com/gtscott90/burger-eater">Github Repository</a></figcaption>
+                    </figure>
+                </div>
+                <div className="col-lg-3">
+                    <figure className="text-center"><img src={EmployDir} alt="Employee Directory" style={{width: "150px"}}/> 
+                        <figcaption className="text-center"><a href="https://gtscott90.github.io/employee-directory/">Employee Directory</a></figcaption>
+                        <figcaption className="text-center"><a href="https://github.com/gtscott90/employee-directory">Github Repository</a></figcaption>
                     </figure>
                 </div>
                 <div className="col-lg-3">
