@@ -29,13 +29,13 @@ function Portfolio() {
                 <div className="col-lg-3">
                     <figure className="text-center"><img src={DestinationGoals} alt="Destination: Goals" style={{width: "150px"}}/> 
                         <figcaption className="text-center"><a href="https://apple-tart-97413.herokuapp.com/">Destination: Goals</a></figcaption>
-                        <figcaption className="text-center"><a href="https://github.com/jacquelinerodney/project2">Github Repository</a></figcaption>
+                        <figcaption className="text-center"><a href="https://github.com/gtscott90/project2">Github Repository</a></figcaption>
                     </figure>
                 </div>
                 <div className="col-lg-3">
                     <figure className="text-center"><img src={Spyglass} alt="Spyglass" style={{width: "150px"}}/> 
                         <figcaption className="text-center"><a href="https://gabel35.github.io/Spyglass/">Spyglass</a></figcaption>
-                        <figcaption className="text-center"><a href="https://github.com/gabel35/Spyglass">Github Repository</a></figcaption>
+                        <figcaption className="text-center"><a href="https://github.com/gtscott90/Spyglass">Github Repository</a></figcaption>
                     </figure>
                 </div>
                 <div className="col-lg-3">
