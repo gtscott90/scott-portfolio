@@ -31,8 +31,7 @@ function About() {
                 stack web developer and make a change to a new field.
               </p>
               <p className="lead">
-                I'm gaining proficiency in HTML, CSS, Bootstrap, Javascript and
-                more. I'm excited about the problem solving nature of coding in
+                I'm excited about the problem solving nature of coding in
                 conjuction with the creative element. I really enjoy identifying
                 and solving problems while getting also getting satisfaction out
                 of creating a useful product for people.
@@ -41,6 +40,23 @@ function About() {
                 In my spare time I enjoy rock climbing, camping, seeing live music
                 and going to the park with my dog.
               </p>
+              <ul className="lead">
+                  <h4>Technical Skills</h4>
+                  <li>Browser Based Technologies (HTML5, CSS, JavaScript, jQuery, Bootstrap, React.js)</li>
+                  <li>Databases (MySQL, MongoDB)</li>
+                  <li>Server Side Development (MERN Stack, Progressive Web Applications)</li>
+                  <li>Deployment/Command-Line Fundamentals (Heroku, Git)</li>
+                  <li>API Interaction (API, JSON, AJAX)</li>
+                  <li>Quality Assurance (Unit Testing, Linting, Continuous Integration)</li>
+              </ul>
+              <ul className="lead">
+                  <h4>Soft Skills</h4>
+                  <li>Teamwork and Collaboration</li>
+                  <li>Team Leadership Experience</li>
+                  <li>Clear Communication</li>
+                  <li>Life-long Learner</li>
+                  <li>Problem Solver</li>
+              </ul>
             </div>
           </div>
         </div>
