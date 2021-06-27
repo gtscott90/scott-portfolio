@@ -65,13 +65,13 @@ function Portfolio() {
                         <Card.Body>
                             <Card.Title>Spyglass</Card.Title>
                             <Card.Text>
-                                descrioption placeholder
+                                Travel planning app used to find information about countries so you can plan your trip
                             </Card.Text>
                             <Card.Text>
-                            <p><span className="font-weight-bold">Technologies: </span> </p>
+                            <p><span className="font-weight-bold">Technologies: </span>JavaScript, Semantic UI, Rest Countries API, Currency Converter API</p>
                             </Card.Text>
                             <Card.Text>
-                            <p><span className="font-weight-bold">Role: </span> </p>
+                            <p><span className="font-weight-bold">Role: </span>used the currency converter API to create the currency converter</p>
                             </Card.Text>
                             <Card.Link href="https://gabel35.github.io/Spyglass/">Deployed App</Card.Link>
                             <Card.Link href="https://github.com/gtscott90/Spyglass">Github</Card.Link>
@@ -83,36 +83,17 @@ function Portfolio() {
            <div className="row">
                 <div className="col-lg-4">
                     <Card style={{ width: '20rem' }}>
-                        <Card.Img variant="top" src={DayPlanner} alt="Day Planner" style={{width: "318px", height:"210px"}}/>
-                        <Card.Body>
-                            <Card.Title>Day Planner</Card.Title>
-                            <Card.Text>
-                                descrioption placeholder
-                            </Card.Text>
-                            <Card.Text>
-                            <p><span className="font-weight-bold">Technologies: </span> </p>
-                            </Card.Text>
-                            <Card.Text>
-                            <p><span className="font-weight-bold">Role: </span>Sole Author </p>
-                            </Card.Text>
-                            <Card.Link href="https://gtscott90.github.io/day-planner/">Deployed App</Card.Link>
-                            <Card.Link href="https://github.com/gtscott90/day-planner">Github</Card.Link>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className="col-lg-4">
-                    <Card style={{ width: '20rem' }}>
                         <Card.Img variant="top" src={EatBurger} alt="Eat Da Burger" style={{width: "318px", height:"210px"}}/>
                         <Card.Body>
                             <Card.Title>Eat da Burger</Card.Title>
                             <Card.Text>
-                                descrioption placeholder
+                                Create, Read, Update, and Delete "burgers" from an SQL database
                             </Card.Text>
                             <Card.Text>
-                            <p><span className="font-weight-bold">Technologies: </span> </p>
+                            <p><span className="font-weight-bold">Technologies: </span>MySQL, Node.js, Express, Handlebars, ORM, MVC structure, HTML, CSS</p>
                             </Card.Text>
                             <Card.Text>
-                            <p><span className="font-weight-bold">Role: </span>Sole Author </p>
+                            <p><span className="font-weight-bold">Role: </span>Sole Author</p>
                             </Card.Text>
                             <Card.Link href="https://fast-thicket-43734.herokuapp.com/">Deployed App</Card.Link>
                             <Card.Link href="https://github.com/gtscott90/burger-eater">Github</Card.Link>
@@ -125,16 +106,35 @@ function Portfolio() {
                         <Card.Body>
                             <Card.Title>Employee Directory</Card.Title>
                             <Card.Text>
-                                descrioption placeholder
+                                Keep track of employees and their information by searching, filtering, and sorting with this React App
                             </Card.Text>
                             <Card.Text>
-                            <p><span className="font-weight-bold">Technologies: </span> </p>
+                            <p><span className="font-weight-bold">Technologies: </span>React, Random User API, JavaScript, HTML, CSS </p>
                             </Card.Text>
                             <Card.Text>
-                            <p><span className="font-weight-bold">Role: </span>Sole Author </p>
+                            <p><span className="font-weight-bold">Role: </span>Sole Author</p>
                             </Card.Text>
                             <Card.Link href="https://gtscott90.github.io/employee-directory/">Deployed App</Card.Link>
                             <Card.Link href="https://github.com/gtscott90/employee-directory">Github</Card.Link>
+                        </Card.Body>
+                    </Card>
+                </div>
+                <div className="col-lg-4">
+                    <Card style={{ width: '20rem' }}>
+                        <Card.Img variant="top" src={DayPlanner} alt="Day Planner" style={{width: "318px", height:"210px"}}/>
+                        <Card.Body>
+                            <Card.Title>Day Planner</Card.Title>
+                            <Card.Text>
+                                A simple day calendar showing past, present, and future hour blocks to help you schedule your day
+                            </Card.Text>
+                            <Card.Text>
+                            <p><span className="font-weight-bold">Technologies:  </span>Bootstrap, Moment.js, JQuery, FontAwesome, HTML, CSS, Local Storage</p>
+                            </Card.Text>
+                            <Card.Text>
+                            <p><span className="font-weight-bold">Role: </span>Sole Author</p>
+                            </Card.Text>
+                            <Card.Link href="https://gtscott90.github.io/day-planner/">Deployed App</Card.Link>
+                            <Card.Link href="https://github.com/gtscott90/day-planner">Github</Card.Link>
                         </Card.Body>
                     </Card>
                 </div>
@@ -147,13 +147,13 @@ function Portfolio() {
                         <Card.Body>
                             <Card.Title>Workout Tracker</Card.Title>
                             <Card.Text>
-                                descrioption placeholder
+                                Create, Read, and Update different kinds of workouts in a Mongo Database to track types of exercise, minutes of exercise, and pounds lifted, then view your data on a userfriendly dashboard
                             </Card.Text>
                             <Card.Text>
-                            <p><span className="font-weight-bold">Technologies: </span> </p>
+                            <p><span className="font-weight-bold">Technologies: </span>MongoDB, Mongoose, JavaScript, HTML, CSS</p>
                             </Card.Text>
                             <Card.Text>
-                            <p><span className="font-weight-bold">Role: </span>Sole Author </p>
+                            <p><span className="font-weight-bold">Role: </span>Sole Author</p>
                             </Card.Text>
                             <Card.Link href="https://stormy-river-80275.herokuapp.com/">Deployed App</Card.Link>
                             <Card.Link href="https://github.com/gtscott90/workout-tracker">Github</Card.Link>
@@ -169,7 +169,7 @@ function Portfolio() {
                         Generates a random password based on user specification of length and inclusion of special characters.
                         </Card.Text>
                         <Card.Text>
-                        <p><span className="font-weight-bold">Technologies: </span> </p>
+                        <p><span className="font-weight-bold">Technologies: </span>JavaScript, HTML, CSS </p>
                         </Card.Text>
                         <Card.Text>
                         <p><span className="font-weight-bold">Role: </span>Sole Author</p>
