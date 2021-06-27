@@ -20,53 +20,54 @@ function Portfolio() {
             </div>
             <hr />
            <div className="row">
-                <div className="col-lg-3">
-                    <figure className="text-center"><img src={DevSync} alt="DevSync" style={{width: "150px"}}/> 
+                <div className="col-lg-4">
+                    <figure className="text-center"><img src={DevSync} alt="DevSync" style={{width: "250px"}}/> 
                         <figcaption className="text-center"><a href="https://devsync-project-3.herokuapp.com/">DevSync</a></figcaption>
                         <figcaption className="text-center"><a href="https://github.com/gtscott90/Project-3">Github Repository</a></figcaption>
                     </figure>
                 </div>
-                <div className="col-lg-3">
-                    <figure className="text-center"><img src={DestinationGoals} alt="Destination: Goals" style={{width: "150px"}}/> 
+                <div className="col-lg-4">
+                    <figure className="text-center"><img src={DestinationGoals} alt="Destination: Goals" style={{width: "250px"}}/> 
                         <figcaption className="text-center"><a href="https://apple-tart-97413.herokuapp.com/">Destination: Goals</a></figcaption>
                         <figcaption className="text-center"><a href="https://github.com/gtscott90/project2">Github Repository</a></figcaption>
                     </figure>
                 </div>
-                <div className="col-lg-3">
-                    <figure className="text-center"><img src={Spyglass} alt="Spyglass" style={{width: "150px"}}/> 
+                <div className="col-lg-4">
+                    <figure className="text-center"><img src={Spyglass} alt="Spyglass" style={{width: "250px"}}/> 
                         <figcaption className="text-center"><a href="https://gabel35.github.io/Spyglass/">Spyglass</a></figcaption>
                         <figcaption className="text-center"><a href="https://github.com/gtscott90/Spyglass">Github Repository</a></figcaption>
                     </figure>
-                </div>
-                <div className="col-lg-3">
-                    <figure className="text-center"><img src={DayPlanner} alt="Day Planner Icon" style={{width: "150px"}}/> 
+                </div>  
+           </div>
+           <div className="row">
+                <div className="col-lg-4">
+                    <figure className="text-center"><img src={DayPlanner} alt="Day Planner Icon" style={{width: "250px"}}/> 
                         <figcaption className="text-center"><a href="https://gtscott90.github.io/day-planner/">Day Planner</a></figcaption>
                         <figcaption className="text-center"><a href="https://github.com/gtscott90/day-planner">Github Repository</a></figcaption>
                     </figure>
                 </div>
-           </div>
-
-           <div className="row">
-                <div className="col-lg-3">
-                    <figure className="text-center"><img src={EatBurger} alt="Eat Da Burger" style={{width: "150px"}}/> 
+                <div className="col-lg-4">
+                    <figure className="text-center"><img src={EatBurger} alt="Eat Da Burger" style={{width: "250px"}}/> 
                         <figcaption className="text-center"><a href="https://fast-thicket-43734.herokuapp.com/">Eat Da Burger!</a></figcaption>
                         <figcaption className="text-center"><a href="https://github.com/gtscott90/burger-eater">Github Repository</a></figcaption>
                     </figure>
                 </div>
-                <div className="col-lg-3">
-                    <figure className="text-center"><img src={EmployDir} alt="Employee Directory" style={{width: "150px"}}/> 
+                <div className="col-lg-4">
+                    <figure className="text-center"><img src={EmployDir} alt="Employee Directory" style={{width: "250px"}}/> 
                         <figcaption className="text-center"><a href="https://gtscott90.github.io/employee-directory/">Employee Directory</a></figcaption>
                         <figcaption className="text-center"><a href="https://github.com/gtscott90/employee-directory">Github Repository</a></figcaption>
                     </figure>
                 </div>
-                <div className="col-lg-3">
-                    <figure className="text-center"><img src={WorkoutTracker} alt="Workout Tracker" style={{width: "150px"}}/> 
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <figure className="text-center"><img src={WorkoutTracker} alt="Workout Tracker" style={{width: "250px"}}/> 
                         <figcaption className="text-center"><a href="https://stormy-river-80275.herokuapp.com/stats">Workout Tracker</a></figcaption>
                         <figcaption className="text-center"><a href="https://github.com/gtscott90/workout-tracker">Github Repository</a></figcaption>
                     </figure>
                 </div>
-                <div className="col-lg-3">
-                    <figure className="text-center"><img src={PassGen} alt="Password Generator" style={{width: "150px"}}/> 
+                <div className="col-lg-4">
+                    <figure className="text-center"><img src={PassGen} alt="Password Generator" style={{width: "250px"}}/> 
                         <figcaption className="text-center"><a href="https://gtscott90.github.io/password-generator/">Password Generator</a></figcaption>
                         <figcaption className="text-center"><a href="https://github.com/gtscott90/password-generator">Github Repository</a></figcaption>
                     </figure>
