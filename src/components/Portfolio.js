@@ -35,8 +35,8 @@ function Portfolio() {
                             <Card.Text>
                             <p><span className="font-weight-bold">Role: </span>used Github Jobs API to create the jobsearch page, used React for the landing page, peer code review</p>
                             </Card.Text>
-                            <Card.Link href="https://devsync-project-3.herokuapp.com/">Deployed App</Card.Link>
-                            <Card.Link href="https://github.com/gtscott90/DevSync">Github</Card.Link>
+                            <Card.Link href="https://devsync-project-3.herokuapp.com/" target="_blank">Deployed App</Card.Link>
+                            <Card.Link href="https://github.com/gtscott90/DevSync" target="_blank">Github</Card.Link>
                         </Card.Body>
                     </Card>
                 </div>
@@ -54,8 +54,8 @@ function Portfolio() {
                             <Card.Text>
                             <p><span className="font-weight-bold">Role: </span>wrote the logic to get each goal to appear on the calendar based on the frequency at which user wants to work on their goal, peer code review</p>
                             </Card.Text>
-                            <Card.Link href="https://apple-tart-97413.herokuapp.com/">Deployed App</Card.Link>
-                            <Card.Link href="https://github.com/gtscott90/Destination-Goals">Github</Card.Link>
+                            <Card.Link href="https://apple-tart-97413.herokuapp.com/" target="_blank">Deployed App</Card.Link>
+                            <Card.Link href="https://github.com/gtscott90/Destination-Goals" target="_blank">Github</Card.Link>
                         </Card.Body>
                     </Card>
                 </div>
@@ -73,8 +73,8 @@ function Portfolio() {
                             <Card.Text>
                             <p><span className="font-weight-bold">Role: </span>used the currency converter API to create the currency converter</p>
                             </Card.Text>
-                            <Card.Link href="https://gabel35.github.io/Spyglass/">Deployed App</Card.Link>
-                            <Card.Link href="https://github.com/gtscott90/Spyglass">Github</Card.Link>
+                            <Card.Link href="https://gabel35.github.io/Spyglass/" target="_blank">Deployed App</Card.Link>
+                            <Card.Link href="https://github.com/gtscott90/Spyglass" target="_blank">Github</Card.Link>
                         </Card.Body>
                     </Card>
                 </div> 
@@ -95,8 +95,8 @@ function Portfolio() {
                             <Card.Text>
                             <p><span className="font-weight-bold">Role: </span>Sole Author</p>
                             </Card.Text>
-                            <Card.Link href="https://fast-thicket-43734.herokuapp.com/">Deployed App</Card.Link>
-                            <Card.Link href="https://github.com/gtscott90/burger-eater">Github</Card.Link>
+                            <Card.Link href="https://fast-thicket-43734.herokuapp.com/" target="_blank">Deployed App</Card.Link>
+                            <Card.Link href="https://github.com/gtscott90/burger-eater" target="_blank">Github</Card.Link>
                         </Card.Body>
                     </Card>
                 </div>
@@ -114,8 +114,8 @@ function Portfolio() {
                             <Card.Text>
                             <p><span className="font-weight-bold">Role: </span>Sole Author</p>
                             </Card.Text>
-                            <Card.Link href="https://gtscott90.github.io/employee-directory/">Deployed App</Card.Link>
-                            <Card.Link href="https://github.com/gtscott90/employee-directory">Github</Card.Link>
+                            <Card.Link href="https://gtscott90.github.io/employee-directory/" target="_blank">Deployed App</Card.Link>
+                            <Card.Link href="https://github.com/gtscott90/employee-directory" target="_blank">Github</Card.Link>
                         </Card.Body>
                     </Card>
                 </div>
@@ -133,8 +133,8 @@ function Portfolio() {
                             <Card.Text>
                             <p><span className="font-weight-bold">Role: </span>Sole Author</p>
                             </Card.Text>
-                            <Card.Link href="https://gtscott90.github.io/day-planner/">Deployed App</Card.Link>
-                            <Card.Link href="https://github.com/gtscott90/day-planner">Github</Card.Link>
+                            <Card.Link href="https://gtscott90.github.io/day-planner/" target="_blank">Deployed App</Card.Link>
+                            <Card.Link href="https://github.com/gtscott90/day-planner" target="_blank">Github</Card.Link>
                         </Card.Body>
                     </Card>
                 </div>
@@ -155,8 +155,8 @@ function Portfolio() {
                             <Card.Text>
                             <p><span className="font-weight-bold">Role: </span>Sole Author</p>
                             </Card.Text>
-                            <Card.Link href="https://stormy-river-80275.herokuapp.com/">Deployed App</Card.Link>
-                            <Card.Link href="https://github.com/gtscott90/workout-tracker">Github</Card.Link>
+                            <Card.Link href="https://stormy-river-80275.herokuapp.com/" target="_blank">Deployed App</Card.Link>
+                            <Card.Link href="https://github.com/gtscott90/workout-tracker" target="_blank">Github</Card.Link>
                         </Card.Body>
                     </Card>
                 </div>
@@ -174,8 +174,8 @@ function Portfolio() {
                         <Card.Text>
                         <p><span className="font-weight-bold">Role: </span>Sole Author</p>
                         </Card.Text>
-                        <Card.Link href="https://gtscott90.github.io/password-generator/">Deployed App</Card.Link>
-                        <Card.Link href="https://github.com/gtscott90/password-generator">Github</Card.Link>
+                        <Card.Link href="https://gtscott90.github.io/password-generator/" target="_blank">Deployed App</Card.Link>
+                        <Card.Link href="https://github.com/gtscott90/password-generator" target="_blank">Github</Card.Link>
                     </Card.Body>
                 </Card>
                 </div>
