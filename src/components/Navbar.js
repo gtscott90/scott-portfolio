@@ -19,14 +19,14 @@ function NavBar() {
         <Nav.Link 
           to="/scott-portfolio/about" 
             className={
-              window.location.pathname === "/" || window.location.pathname === "/about" ? "nav-link active" : "nav-link"}> 
+              window.location.pathname === "/scott-portfolio/" || window.location.pathname === "/scott-portfolio/about" ? "nav-link active" : "nav-link"}> 
               {addressCard}
               About
               </Nav.Link>
         <Nav.Link 
           to="/scott-portfolio/portfolio" 
             className={
-              window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
+              window.location.pathname === "/scott-portfolio/portfolio" ? "nav-link active" : "nav-link"}>
               {stream}
               Portfolio
               </Nav.Link>
