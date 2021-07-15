@@ -18,7 +18,7 @@ function NavBar() {
       <Nav className="mr-auto">
         <Nav.Link 
           as={Link}
-          to="/scott-portfolio/about" 
+          href="/scott-portfolio/about" 
             className={
               window.location.pathname === "/scott-portfolio/" || window.location.pathname === "/scott-portfolio/about" ? "nav-link active" : "nav-link"}> 
               {addressCard}
@@ -26,7 +26,7 @@ function NavBar() {
               </Nav.Link>
         <Nav.Link 
           as={Link}
-          to="/scott-portfolio/portfolio" 
+          href="/scott-portfolio/portfolio" 
             className={
               window.location.pathname === "/scott-portfolio/portfolio" ? "nav-link active" : "nav-link"}>
               {stream}
