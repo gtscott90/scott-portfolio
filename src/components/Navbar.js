@@ -17,14 +17,14 @@ function NavBar() {
       <Navbar.Brand href="/scott-portfolio/">Greg Scott</Navbar.Brand>
       <Nav className="mr-auto">
         <Nav.Link 
-          to="/scott-portfolio/about" 
+          href="/scott-portfolio/about" 
             className={
               window.location.pathname === "/scott-portfolio/" || window.location.pathname === "/scott-portfolio/about" ? "nav-link active" : "nav-link"}> 
               {addressCard}
               About
               </Nav.Link>
         <Nav.Link 
-          to="/scott-portfolio/portfolio" 
+          href="/scott-portfolio/portfolio" 
             className={
               window.location.pathname === "/scott-portfolio/portfolio" ? "nav-link active" : "nav-link"}>
               {stream}
