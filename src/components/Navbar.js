@@ -14,17 +14,17 @@ const mobile = <FontAwesomeIcon icon={faMobileAlt} />
 function NavBar() {
     return (
     <Navbar bg="light" variant="light">
-      <Navbar.Brand href="/">Greg Scott</Navbar.Brand>
+      <Navbar.Brand href="/scott-portfolio/">Greg Scott</Navbar.Brand>
       <Nav className="mr-auto">
         <Nav.Link 
-          to="/about" 
+          to="/scott-portfolio/about" 
             className={
               window.location.pathname === "/" || window.location.pathname === "/about" ? "nav-link active" : "nav-link"}> 
               {addressCard}
               About
               </Nav.Link>
         <Nav.Link 
-          to="/portfolio" 
+          to="/scott-portfolio/portfolio" 
             className={
               window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
               {stream}

@@ -10,15 +10,15 @@ import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <Router basename="/scott-portfolio">
+    <Router basename={`/${process.env.PUBLIC_URL}`}>
       <div>
         <Navbar />
         <Wrapper>
-          <Redirect exact from="/" to="/about" />
-          <Route exact path="/" component={About} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
+          <Redirect exact from="/scott-portfolio/" to="/about" />
+          <Route exact path="/scott-portfolio/" component={About} />
+          <Route exact path="/scott-portfolio/about" component={About} />
+          <Route exact path="/scott-portfolio/portfolio" component={Portfolio} />
+          <Route exact path="/scott-portfolio/contact" component={Contact} />
         </Wrapper>
         <Footer />
       </div>
