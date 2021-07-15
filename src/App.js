@@ -10,7 +10,7 @@ import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/scott-portfolio">
       <div>
         <Navbar />
         <Wrapper>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAddressCard } from '@fortawesome/free-solid-svg-icons';
@@ -10,9 +11,36 @@ const addressCard = <FontAwesomeIcon icon={faAddressCard} />
 const stream = <FontAwesomeIcon icon={faStream} />
 const mobile = <FontAwesomeIcon icon={faMobileAlt} />
 
-function Navbar() {
+function NavBar() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <Navbar bg="light" variant="light">
+      <Navbar.Brand href="/">Greg Scott</Navbar.Brand>
+      <Nav className="mr-auto">
+        <Nav.Link 
+          to="/about" 
+            className={
+              window.location.pathname === "/" || window.location.pathname === "/about" ? "nav-link active" : "nav-link"}> 
+              {addressCard}
+              About
+              </Nav.Link>
+        <Nav.Link 
+          to="/portfolio" 
+            className={
+              window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
+              {stream}
+              Portfolio
+              </Nav.Link>
+        <Nav.Link href="#pricing">Pricing</Nav.Link>
+      </Nav>
+    </Navbar>
+      
+      
+    );
+  }
+  
+  export default NavBar;
+
+  <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         
@@ -50,10 +78,13 @@ function Navbar() {
                 Contact
               </Link>
             </li>
+            <li className="nav-item">
+              <Link to="/files/Scott_Gregory_Full Stack Resume.pdf" 
+                target="_blank" 
+                download>
+                Resume
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
-    );
-  }
-  
-  export default Navbar;
