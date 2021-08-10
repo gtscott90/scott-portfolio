@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 import Portfolio from "./components/Portfolio";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -10,15 +10,17 @@ import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <Router basename={`/${process.env.PUBLIC_URL}`}>
+    <Router>
       <div>
         <Navbar />
         <Wrapper>
-          <Redirect exact from="/scott-portfolio/" to="/scott-portfolio/about" />
-          <Route exact path="/scott-portfolio/" component={About} />
-          <Route exact path="/scott-portfolio/about" component={About} />
-          <Route exact path="/scott-portfolio/portfolio" component={Portfolio} />
-          <Route exact path="/scott-portfolio/contact" component={Contact} />
+          {/* <Switch> */}
+          <Redirect exact from="/portfolio-test/" to="/portfolio-test/about" />
+          <Route exact path="/portfolio-test/" component={About} />
+          <Route exact path="/portfolio-test/about" component={About} />
+          <Route exact path="/portfolio-test/portfolio" component={Portfolio} />
+          <Route exact path="/portfolio-test/contact" component={Contact} />
+          {/* </Switch> */}
         </Wrapper>
         <Footer />
       </div>
