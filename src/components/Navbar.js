@@ -14,26 +14,26 @@ const mobile = <FontAwesomeIcon icon={faMobileAlt} />
 function NavBar() {
     return (
     <Navbar bg="light" variant="light">
-      <Navbar.Brand href="/scott-portfolio/">Greg Scott</Navbar.Brand>
+      <Navbar.Brand href="/portfolio-test/">Greg Scott</Navbar.Brand>
+      <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
-        <Nav.Link 
-          as={Link}
-          href="/scott-portfolio/about" 
+        <Nav.Link as={Link} to="/portfolio-test/about" 
             className={
-              window.location.pathname === "/scott-portfolio/" || window.location.pathname === "/scott-portfolio/about" ? "nav-link active" : "nav-link"}> 
+              "nav-link"}> 
               {addressCard}
               About
-              </Nav.Link>
-        <Nav.Link 
+        </Nav.Link>
+        <Nav.Link
           as={Link}
-          href="/scott-portfolio/portfolio" 
+          to="/portfolio-test/portfolio" 
             className={
-              window.location.pathname === "/scott-portfolio/portfolio" ? "nav-link active" : "nav-link"}>
+              "nav-link"}>
               {stream}
               Portfolio
-              </Nav.Link>
+        </Nav.Link>
         <Nav.Link href="#pricing">Pricing</Nav.Link>
       </Nav>
+  </Navbar.Collapse>
     </Navbar>
       
       
@@ -41,52 +41,3 @@ function NavBar() {
   }
   
   export default NavBar;
-
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        
-        </button>
-        <Link className="navbar-brand" to="/">
-          Greg Scott
-        </Link>
-        <div>
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <Link
-                to="/about"
-                className={
-                  window.location.pathname === "/" || window.location.pathname === "/about"
-                    ? "nav-link active"
-                    : "nav-link"
-                }
-              > {addressCard}
-                About
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/portfolio"
-                className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
-              >{stream}
-                Portfolio
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/contact"
-                className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
-              > {mobile}
-                Contact
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/files/Scott_Gregory_Full Stack Resume.pdf" 
-                target="_blank" 
-                download>
-                Resume
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
