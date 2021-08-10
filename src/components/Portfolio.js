@@ -21,7 +21,7 @@ function Portfolio() {
             </div>
             <hr />
            <div className="row">
-                <div className="col-lg-4">
+                <div className="col-lg-4 py-2">
                     <Card style={{ width: '20rem' }}>
                         <Card.Img variant="top" src={DevSync} alt="DevSync" style={{width: "318px", height:"210px"}}/>
                         <Card.Body>
@@ -40,7 +40,7 @@ function Portfolio() {
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4 py-2">
                     <Card style={{ width: '20rem' }}>
                         <Card.Img variant="top" src={DestinationGoals} alt="Destination: Goals" style={{width: "318px", height:"210px"}}/>
                         <Card.Body>
@@ -59,7 +59,7 @@ function Portfolio() {
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4 py-2">
                     <Card style={{ width: '20rem' }}>
                         <Card.Img variant="top" src={Spyglass} alt="Spyglass" style={{width: "318px", height:"210px"}}/>
                         <Card.Body>
@@ -79,9 +79,9 @@ function Portfolio() {
                     </Card>
                 </div> 
            </div>
-           <hr />
+           
            <div className="row">
-                <div className="col-lg-4">
+                <div className="col-lg-4 py-2">
                     <Card style={{ width: '20rem' }}>
                         <Card.Img variant="top" src={EatBurger} alt="Eat Da Burger" style={{width: "318px", height:"210px"}}/>
                         <Card.Body>
@@ -100,7 +100,7 @@ function Portfolio() {
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4 py-2">
                     <Card style={{ width: '20rem' }}>
                         <Card.Img variant="top" src={EmployDir} alt="Employee Directory" style={{width: "318px", height:"210px"}}/>
                         <Card.Body>
@@ -119,7 +119,7 @@ function Portfolio() {
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4 py-2">
                     <Card style={{ width: '20rem' }}>
                         <Card.Img variant="top" src={DayPlanner} alt="Day Planner" style={{width: "318px", height:"210px"}}/>
                         <Card.Body>
@@ -139,9 +139,9 @@ function Portfolio() {
                     </Card>
                 </div>
             </div>
-            <hr />
+            
             <div className="row">
-                <div className="col-lg-4">
+                <div className="col-lg-4 py-2">
                     <Card style={{ width: '20rem' }}>
                         <Card.Img variant="top" src={WorkoutTracker} alt="Workout Tracker" style={{width: "318px", height:"210px"}}/>
                         <Card.Body>
@@ -160,24 +160,24 @@ function Portfolio() {
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="col-lg-4">
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={PassGen} alt="Password Generator" style={{width: "286px", height:"180px"}}/>
-                    <Card.Body>
-                        <Card.Title>Password Generator</Card.Title>
-                        <Card.Text>
-                        Generates a random password based on user specification of length and inclusion of special characters.
-                        </Card.Text>
-                        <Card.Text>
-                        <p><span className="font-weight-bold">Technologies: </span>JavaScript, HTML, CSS </p>
-                        </Card.Text>
-                        <Card.Text>
-                        <p><span className="font-weight-bold">Role: </span>Sole Author</p>
-                        </Card.Text>
-                        <Card.Link href="https://gtscott90.github.io/password-generator/" target="_blank">Deployed App</Card.Link>
-                        <Card.Link href="https://github.com/gtscott90/password-generator" target="_blank">Github</Card.Link>
-                    </Card.Body>
-                </Card>
+                <div className="col-lg-4 py-2">
+                    <Card style={{ width: '20rem' }}>
+                        <Card.Img variant="top" src={PassGen} alt="Password Generator" style={{width: "318px", height:"210px"}}/>
+                        <Card.Body>
+                            <Card.Title>Password Generator</Card.Title>
+                            <Card.Text>
+                            Generates a random password based on user specification of length and inclusion of special characters.
+                            </Card.Text>
+                            <Card.Text>
+                            <p><span className="font-weight-bold">Technologies: </span>JavaScript, HTML, CSS </p>
+                            </Card.Text>
+                            <Card.Text>
+                            <p><span className="font-weight-bold">Role: </span>Sole Author</p>
+                            </Card.Text>
+                            <Card.Link href="https://gtscott90.github.io/password-generator/" target="_blank">Deployed App</Card.Link>
+                            <Card.Link href="https://github.com/gtscott90/password-generator" target="_blank">Github</Card.Link>
+                        </Card.Body>
+                    </Card>
                 </div>
             </div>
        </div>   
