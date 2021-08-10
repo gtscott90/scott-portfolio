@@ -14,10 +14,10 @@ const mobile = <FontAwesomeIcon icon={faMobileAlt} />
 function NavBar() {
     return (
     <Navbar bg="light" variant="light">
-      <Navbar.Brand href="/portfolio-test/">Greg Scott</Navbar.Brand>
+      <Navbar.Brand href="/scott-portfolio/">Greg Scott</Navbar.Brand>
       <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
-        <Nav.Link as={Link} to="/portfolio-test/about" 
+        <Nav.Link as={Link} to="/scott-portfolio/about" 
             className={
               "nav-link"}> 
               {addressCard}
@@ -25,13 +25,20 @@ function NavBar() {
         </Nav.Link>
         <Nav.Link
           as={Link}
-          to="/portfolio-test/portfolio" 
+          to="/scott-portfolio/portfolio" 
             className={
               "nav-link"}>
               {stream}
               Portfolio
         </Nav.Link>
-        <Nav.Link href="#pricing">Pricing</Nav.Link>
+        <Nav.Link 
+          as={Link}
+          to="/scott-portfolio/contact" 
+            className={
+              "nav-link"}>
+              {mobile}
+              Contact
+        </Nav.Link>
       </Nav>
   </Navbar.Collapse>
     </Navbar>
