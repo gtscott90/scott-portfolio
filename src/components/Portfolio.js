@@ -8,6 +8,7 @@ import EatBurger from "./images/eat-da-burger.png"
 import DevSync from "./images/devsync.png"
 import EmployDir from "./images/employeedirectory.png"
 import WorkoutTracker from "./images/workout-tracker.png"
+import TaskHome from "./images/home.png"
 
 function Portfolio() {
     return (
@@ -176,6 +177,25 @@ function Portfolio() {
                             </Card.Text>
                             <Card.Link href="https://gtscott90.github.io/password-generator/" target="_blank">Deployed App</Card.Link>
                             <Card.Link href="https://github.com/gtscott90/password-generator" target="_blank">Github</Card.Link>
+                        </Card.Body>
+                    </Card>
+                </div>
+                <div className="col-lg-4 py-2">
+                    <Card style={{ width: '20rem' }}>
+                        <Card.Img variant="top" src={TaskHome} alt="Task List React Front End" style={{width: "318px", height:"210px"}}/>
+                        <Card.Body>
+                            <Card.Title>Task List - React Front End</Card.Title>
+                            <Card.Text>
+                            This task list can be used to show how React manipulates the UI through the use of state. There is no backend for this webapp intentionally so that any changes made to the task list are a reflection of a change in the state.
+                            </Card.Text>
+                            <Card.Text>
+                            <p><span className="font-weight-bold">Technologies: </span>React, React Hooks, JavaScript, HTML, CSS </p>
+                            </Card.Text>
+                            <Card.Text>
+                            <p><span className="font-weight-bold">Role: </span>Sole Author</p>
+                            </Card.Text>
+                            <Card.Link href="https://gtscott90.github.io/task-list-react-frontend/" target="_blank">Deployed App</Card.Link>
+                            <Card.Link href="https://github.com/gtscott90/task-list-react-frontend" target="_blank">Github</Card.Link>
                         </Card.Body>
                     </Card>
                 </div>
